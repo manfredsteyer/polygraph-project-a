@@ -7,7 +7,7 @@
       "!{projectRoot}/.eslintrc.json",
       "!{projectRoot}/eslint.config.mjs"
     ],
-    "sharedGlobals": []
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci-project-a.yml"]
   },
   "nxCloudId": "687b87628281575f296d86cd",
   "targetDefaults": {
