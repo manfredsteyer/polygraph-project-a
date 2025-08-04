@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { add } from '@project-a/calc'; 
 
 @Component({
   imports: [RouterModule],
@@ -9,4 +10,8 @@ import { RouterModule } from '@angular/router';
 })
 export class App {
   protected title = 'project-a';
+
+  constructor() {
+    console.log('highly sophisticated logic', add(1, 2));
+  }
 }
